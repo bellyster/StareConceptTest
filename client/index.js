@@ -3,8 +3,8 @@ import JSONFormatter from 'json-formatter-js';
 const axios = require('axios');
 const d3 = require('d3');
 
-const bubbleChart = require('../Stare/visualizations/bubbleChart.js').bubbleChart;
-const barChart = require('../Stare/visualizations/barChart.js').barChart;
+const bubbleChart = require('stare.js/visualizations').bubbleChart;
+const barChart = require('stare.js/visualizations').barChart;
 
 //Parameters and Variables
 var chart;

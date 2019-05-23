@@ -10,7 +10,7 @@
 const express = require('express');
 const app = express();
 const cors= require('cors');
-const stare=require('../Stare/stare.js');
+const stare=require('stare.js').stare;
 const ecosia= require('./ecosiaWebScraper.js');
 const google = require('./google_API');
 const fs= require('fs');

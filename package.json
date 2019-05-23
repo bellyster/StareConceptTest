@@ -31,7 +31,8 @@
     "languagedetect": "^1.2.0",
     "npm": "^6.7.0",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "stare.js": "^1.2.1"
   },
   "comentarios": {
     "//": "(servidor localhost:1234 de frontend es considerado un servidor ajeno al servidor localhost:3000 del backend)"
